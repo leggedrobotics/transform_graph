@@ -1,5 +1,7 @@
 # transform_graph
 
+[![Build Status](https://ci.leggedrobotics.com/buildStatus/icon?job=bitbucket_leggedrobotics/transform_graph/master)](https://ci.leggedrobotics.com/job/github_leggedrobotics/job/transform_graph/job/master/)
+
 - [ROS wiki](https://wiki.ros.org/transform_graph)
 - [Code API](https://docs.ros.org/indigo/api/transform_graph/html/)
 
