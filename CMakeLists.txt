@@ -14,7 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   tf_conversions
 )
 
-find_package(Eigen REQUIRED)
+find_package(Eigen3 REQUIRED HINTS ${Eigen3_HINT})
 find_package(PCL REQUIRED)
 
 ## System dependencies are found with CMake's conventions
@@ -122,7 +122,7 @@ catkin_package(
     rospy
     tf
     tf_conversions
-  DEPENDS Eigen PCL
+  DEPENDS PCL
 )
 
 ###########
